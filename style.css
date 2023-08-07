@@ -17,7 +17,6 @@ body {
   .nav-menu {
     display: none;
   }
-  .nav
 }
 
 #menu{
@@ -74,7 +73,8 @@ body {
 
 @media screen and (max-width: 600px) {
   div.header {
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 8em;
   }
 }
 /*
@@ -139,16 +139,34 @@ body {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  
+  display: flex;
   
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   
 }
 
+
 .pandimg{
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 480px){
+  .pandimg  { 
+    display: block; 
+    align-items: none;
+  } 
+}
+
+@media screen and (max-width: 480px){
+  .paragraph  { 
+    display: block; 
+    height: auto;
+    width: auto;
+    margin-bottom: 3em;
+    text-align: center;
+  } 
 }
 
 #skillsPage{
