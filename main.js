@@ -1,4 +1,6 @@
 
+document.getElementById("hamburger").addEventListener("click")
+
 
 function scrollFunction() {
   const scroll = document.getElementById("aboutPage");
@@ -20,7 +22,6 @@ function scrollFunction3() {
 window.onbeforeunload = function(){
   window.scrollTo(0, 0);
 }
-
 
 /*
 function aboutMe() {
