@@ -46,6 +46,12 @@ body {
   
 }
 
+@media screen and (max-width: 600px) {
+  .nav {
+    visibility: hidden;
+  }
+}
+
 .line{
   border-left: 2px solid white;
   height: 130px;
@@ -88,8 +94,8 @@ body {
 @media screen and (max-width: 600px) {
   div.header {
     font-size: 40px;
-    margin-top: 7em;
-    margin-bottom: 0.2em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
   }
 }
 /*
@@ -154,8 +160,9 @@ body {
 
 @media screen and (max-width: 480px) {
   #aboutPage {
-    margin-top: 6em;
+    margin-top: 4em;
     padding: 1em;
+    font-size: 30px;
   }
 }
 
@@ -183,12 +190,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   
 }
-
+@media screen and (max-width: 600px) {
+  .picture {
+    font-size: 12px;
+   
+  }
+}
 
 .pandimg{
   display: flex;
@@ -225,8 +236,9 @@ body {
 
 @media screen and (max-width: 480px) {
   #skillsPage {
-    margin-top: 6em;
-    padding: 1em;
+    margin-top: 3em;
+    padding: 2em;
+    font-size: 30px;
   }
 }
 
@@ -264,8 +276,9 @@ body {
 
 @media screen and (max-width: 480px) {
   #projectsPage {
-    margin-top: 6em;
-    padding: 1em;
+    margin-top: 3em;
+    padding: 2em;
+    font-size: 30px;
   }
 }
 
