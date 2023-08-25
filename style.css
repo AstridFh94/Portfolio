@@ -194,6 +194,11 @@ body {
   filter: grayscale(100%);
   
 }
+
+.picture:hover{
+filter: none;
+}
+
 @media screen and (max-width: 600px) {
   .picture {
     font-size: 12px;
@@ -313,7 +318,7 @@ body {
   }
 
 
-.drum, .poke{
+.drum, .poke, .todo{
   width: 5em;
   height: 5em;
   align-content: center;
@@ -323,9 +328,10 @@ body {
   filter: grayscale(100%);
 }
 
-.drum:hover, .poke:hover{
+.drum:hover, .poke:hover, .todo:hover{
   font-size: 1.1em;
   transition: 0.6s;
+  filter: none;
 }
 
 .copyright{
