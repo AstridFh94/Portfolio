@@ -198,14 +198,18 @@ body {
 .github {
   display: flex;
   padding-bottom: 5%;
+  padding-top: 1%;
+  text-align: center;
+  justify-content: center;
 }
 
 .githublogo {
   width: 3em;
   height: 3em;
-  display: block;
+  display: inline;
+  text-align: center;
   margin-left: 1%;
-  margin-right: auto;
+  margin-right: 0 auto;
 }
 
 .githublogo:hover {
@@ -214,7 +218,7 @@ body {
 
 .githubtext {
   color: white;
-  margin-left: auto;
+  margin-left: 0 auto;
   margin-right: 1%;
 }
 
