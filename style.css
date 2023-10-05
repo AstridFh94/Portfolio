@@ -195,6 +195,23 @@ body {
   
 }
 
+.github {
+  display: flex;
+ 
+}
+
+.githublogo {
+  width: 3em;
+  height: 3em;
+  display: flex;
+  margin: auto;
+}
+
+.githubtext {
+  color: white;
+  margin: auto;
+}
+
 .picture:hover{
 filter: none;
 }
