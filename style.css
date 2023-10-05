@@ -197,19 +197,25 @@ body {
 
 .github {
   display: flex;
- 
+  padding-bottom: 5%;
 }
 
 .githublogo {
   width: 3em;
   height: 3em;
-  display: flex;
-  margin: auto;
+  display: block;
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+.githublogo:hover {
+  cursor: pointer;
 }
 
 .githubtext {
   color: white;
-  margin: auto;
+  margin-left: auto;
+  margin-right: 1%;
 }
 
 .picture:hover{
